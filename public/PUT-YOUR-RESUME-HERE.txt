@@ -1,0 +1,8 @@
+Drop your resume here named exactly: resume.pdf
+
+  public/resume.pdf
+
+The "Résumé" button in the hero links to /resume.pdf. Once this file
+exists, the button just works — no code changes needed.
+
+You can delete this .txt file afterward.

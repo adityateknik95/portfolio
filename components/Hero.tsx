@@ -1,5 +1,6 @@
 import { site, mailtoHref, isPlaceholder } from "@/lib/site";
 import { Reveal } from "./Reveal";
+import { HeroBackdrop } from "./HeroBackdrop";
 import { ArrowUpRight, DocumentIcon, GithubIcon, MailIcon } from "./icons";
 
 export function Hero() {
@@ -9,9 +10,10 @@ export function Hero() {
   return (
     <section
       id="top"
-      className="bg-grid relative flex min-h-[88vh] items-center"
+      className="bg-grid relative flex min-h-[88vh] items-center overflow-hidden"
     >
-      <div className="mx-auto w-full max-w-content px-5 py-28 sm:px-8 sm:py-32">
+      <HeroBackdrop />
+      <div className="relative z-10 mx-auto w-full max-w-content px-5 py-28 sm:px-8 sm:py-32">
         <Reveal>
           <p className="mb-6 inline-flex items-center gap-2 rounded-full border border-border bg-surface px-3 py-1 text-xs text-muted">
             <span className="relative flex h-2 w-2">

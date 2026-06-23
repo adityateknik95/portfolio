@@ -54,14 +54,14 @@ pill, and unfilled repo/writeup links show as muted, non-clickable chips.
 
 | Project                         | Placeholders to fill                                                            |
 | ------------------------------- | ------------------------------------------------------------------------------- |
-| SkyWatch                        | `[SkyWatch live demo URL]`, `[SkyWatch writeup URL — optional]` — repo wired   |
+| SkyWatch                        | ✅ live demo + repo (optional writeup pending)                                   |
 | Perspective                     | ✅ fully wired (live demo + repo)                                                |
 | Pursuit-Evasion RL Simulation   | `[Pursuit-Evasion demo video URL]`, `[Pursuit-Evasion GitHub repo URL]`, `[Pursuit-Evasion writeup URL — optional]` |
 | Admin Night                     | ✅ fully wired (live demo + repo)                                                |
 
-**Already wired:** Perspective and Admin Night have both their live demo and GitHub
-repo linked. SkyWatch and Pursuit-Evasion still need their demo/video + repo links —
-they show "coming soon" / muted repo pills until you add them.
+**Already wired:** SkyWatch, Perspective, and Admin Night all have their live demo
+and GitHub repo linked. Only **Pursuit-Evasion** still needs its demo video + repo —
+it shows "coming soon" / muted repo pills until you add them.
 
 Also review the **tech stacks** and **copy** in `lib/projects.ts` — they're sensible
 defaults, but confirm they match what you built, and add any real **metrics**

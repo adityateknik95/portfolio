@@ -38,7 +38,7 @@ export const projects: Project[] = [
       "Aircraft broadcast their position over ADS-B, an unauthenticated protocol that's trivial to spoof. SkyWatch ingests live feeds from the OpenSky Network and flags physically implausible trajectories — impossible jumps, kinematic violations, and inconsistent multilateration — to surface likely spoofing in real time. The result is a streaming anomaly pipeline that scores flights as they fly rather than after the fact.",
     tech: ["Python", "FastAPI", "OpenSky API", "NumPy", "pandas", "scikit-learn"],
     links: {
-      demo: "[SkyWatch live demo URL]",
+      demo: "https://skywatch-six.vercel.app",
       github: "https://github.com/adityateknik95/skywatch",
       writeup: "[SkyWatch writeup URL — optional]",
     },
